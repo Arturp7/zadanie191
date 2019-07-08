@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rejestracja</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+        .wrapper {
+            margin-left: 100px;
+            margin-right: auto;
+        }
+
+        .blue1 {
+            color: blue;
+        }
+
+    </style>
+</head>
+
+<div class="wrapper">
+
+    <body>
+
+        <h1>Rejestracja</h1>
+        <form>
+            <div class="form-group ">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Imię</label>
+                <div class="col-sm-10"><input type="text" class="form-control" id="inputEmail3" placeholder="Wpisz Imię">
+                </div>
+            </div>
+            <div class="form-group ">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Nazwisko</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputPassword3" placeholder="Wpisz nazwisko">
+                </div>
+            </div>
+            <fieldset class="form-group">
+                <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Płeć</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                                Kobieta
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                                Mężczyzna
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+            </fieldset>
+            <div class="form-group ">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Adres email</label>
+                <div class="col-sm-10"><input type="email" class="form-control" id="inputEmail3" placeholder="Wpisz adres email">
+                </div>
+            </div>
+            <div class="form-group ">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Hasło</label>
+                <div class="col-sm-10"><input type="password" class="form-control" id="inputEmail3" placeholder="Wpisz Hasło">
+                    Min 8 znaków
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="form-group col-md-5">
+                        <label for="inputCity">Miasto</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputState">Województwo</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Wybierz...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Kod pocztowy</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+
+                <div class="col-sm-10">
+                    <div class="form-check ">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                            Akceptuję <span class="blue1">regulamin</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1" checked="">
+                        <label class="form-check-label" for="gridCheck1">
+                            Wyrażam zgodę na otrzymywanie informacji marketingowych
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Rejestruj</button>
+                </div>
+            </div>
+
+
+        </form>
+
+    </body>
+</div>
+
+</html>
